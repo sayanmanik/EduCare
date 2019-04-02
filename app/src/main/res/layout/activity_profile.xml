@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a1605476.registrationapp.ProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:textColor="#FF6D00"
+        android:id="@+id/text"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FF6D00"
+    android:id="@+id/name"
+    android:hint="Name"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF6D00"
+        android:id="@+id/address"
+        android:hint="Address"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:text="Save In Database" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        android:id="@+id/LogOutbtn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:text="Sign Out" />
+</LinearLayout>
